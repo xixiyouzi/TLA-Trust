@@ -11,4 +11,4 @@ This repository contains the reference implementation for the manuscript "Toward
 ## Quick Start
 ```bash
 # Evaluate the 24-task benchmark
-python tlatrust.py eval --tasks tasks.json# TLA-Trust
+python tlatrust.py eval --tasks tasks.json
