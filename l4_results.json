@@ -1,0 +1,218 @@
+[
+  {
+    "spec": "AlternatingBitC1",
+    "task": "AlternatingBit",
+    "L1": 0,
+    "L3": -1,
+    "L4": -1,
+    "mutants_killed": 0,
+    "mutants_total": 0
+  },
+  {
+    "spec": "AlternatingBitC2",
+    "task": "AlternatingBit",
+    "L1": 1,
+    "L3": 1,
+    "L4": -1,
+    "mutants_killed": 0,
+    "mutants_total": 0
+  },
+  {
+    "spec": "AlternatingBitC3",
+    "task": "AlternatingBit",
+    "L1": 1,
+    "L3": 5,
+    "L4": 1,
+    "mutants_killed": 0,
+    "mutants_total": 1
+  },
+  {
+    "spec": "AlternatingBitC4",
+    "task": "AlternatingBit",
+    "L1": 1,
+    "L3": 5,
+    "L4": 5,
+    "mutants_killed": 1,
+    "mutants_total": 1
+  },
+  {
+    "spec": "BufferC1",
+    "task": "Buffer",
+    "L1": 0,
+    "L3": -1,
+    "L4": -1,
+    "mutants_killed": 0,
+    "mutants_total": 0
+  },
+  {
+    "spec": "BufferC2",
+    "task": "Buffer",
+    "L1": 1,
+    "L3": 1,
+    "L4": -1,
+    "mutants_killed": 0,
+    "mutants_total": 0
+  },
+  {
+    "spec": "BufferC3",
+    "task": "Buffer",
+    "L1": 1,
+    "L3": 4,
+    "L4": 1,
+    "mutants_killed": 0,
+    "mutants_total": 1
+  },
+  {
+    "spec": "BufferC4",
+    "task": "Buffer",
+    "L1": 1,
+    "L3": 4,
+    "L4": 5,
+    "mutants_killed": 1,
+    "mutants_total": 1
+  },
+  {
+    "spec": "CounterC1",
+    "task": "Counter",
+    "L1": 0,
+    "L3": -1,
+    "L4": -1,
+    "mutants_killed": 0,
+    "mutants_total": 0
+  },
+  {
+    "spec": "CounterC2",
+    "task": "Counter",
+    "L1": 1,
+    "L3": 1,
+    "L4": -1,
+    "mutants_killed": 0,
+    "mutants_total": 0
+  },
+  {
+    "spec": "CounterC3",
+    "task": "Counter",
+    "L1": 1,
+    "L3": 5,
+    "L4": 1,
+    "mutants_killed": 0,
+    "mutants_total": 1
+  },
+  {
+    "spec": "CounterC4",
+    "task": "Counter",
+    "L1": 1,
+    "L3": 5,
+    "L4": 5,
+    "mutants_killed": 1,
+    "mutants_total": 1
+  },
+  {
+    "spec": "MajorityVoteC1",
+    "task": "MajorityVote",
+    "L1": 0,
+    "L3": -1,
+    "L4": -1,
+    "mutants_killed": 0,
+    "mutants_total": 0
+  },
+  {
+    "spec": "MajorityVoteC2",
+    "task": "MajorityVote",
+    "L1": 1,
+    "L3": 1,
+    "L4": -1,
+    "mutants_killed": 0,
+    "mutants_total": 0
+  },
+  {
+    "spec": "MajorityVoteC3",
+    "task": "MajorityVote",
+    "L1": 1,
+    "L3": 5,
+    "L4": 1,
+    "mutants_killed": 0,
+    "mutants_total": 1
+  },
+  {
+    "spec": "MajorityVoteC4",
+    "task": "MajorityVote",
+    "L1": 1,
+    "L3": 5,
+    "L4": 5,
+    "mutants_killed": 1,
+    "mutants_total": 1
+  },
+  {
+    "spec": "MutexC1",
+    "task": "Mutex",
+    "L1": 0,
+    "L3": -1,
+    "L4": -1,
+    "mutants_killed": 0,
+    "mutants_total": 0
+  },
+  {
+    "spec": "MutexC2",
+    "task": "Mutex",
+    "L1": 1,
+    "L3": 1,
+    "L4": -1,
+    "mutants_killed": 0,
+    "mutants_total": 0
+  },
+  {
+    "spec": "MutexC3",
+    "task": "Mutex",
+    "L1": 1,
+    "L3": 4,
+    "L4": 1,
+    "mutants_killed": 0,
+    "mutants_total": 1
+  },
+  {
+    "spec": "MutexC4",
+    "task": "Mutex",
+    "L1": 1,
+    "L3": 4,
+    "L4": 5,
+    "mutants_killed": 1,
+    "mutants_total": 1
+  },
+  {
+    "spec": "TwoPhaseCommitC1",
+    "task": "TwoPhaseCommit",
+    "L1": 0,
+    "L3": -1,
+    "L4": -1,
+    "mutants_killed": 0,
+    "mutants_total": 0
+  },
+  {
+    "spec": "TwoPhaseCommitC2",
+    "task": "TwoPhaseCommit",
+    "L1": 1,
+    "L3": 1,
+    "L4": -1,
+    "mutants_killed": 0,
+    "mutants_total": 0
+  },
+  {
+    "spec": "TwoPhaseCommitC3",
+    "task": "TwoPhaseCommit",
+    "L1": 1,
+    "L3": 5,
+    "L4": 1,
+    "mutants_killed": 0,
+    "mutants_total": 1
+  },
+  {
+    "spec": "TwoPhaseCommitC4",
+    "task": "TwoPhaseCommit",
+    "L1": 1,
+    "L3": 5,
+    "L4": 5,
+    "mutants_killed": 1,
+    "mutants_total": 1
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "spec": "AlternatingBitC1",
+    "L1": 0,
+    "L3": -1,
+    "distinct_states": null,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 150
+  },
+  {
+    "spec": "AlternatingBitC2",
+    "L1": 1,
+    "L3": 1,
+    "distinct_states": 1,
+    "deadlock": true,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 11
+  },
+  {
+    "spec": "AlternatingBitC3",
+    "L1": 1,
+    "L3": 5,
+    "distinct_states": 14,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 0
+  },
+  {
+    "spec": "AlternatingBitC4",
+    "L1": 1,
+    "L3": 5,
+    "distinct_states": 14,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 0
+  },
+  {
+    "spec": "BufferC1",
+    "L1": 0,
+    "L3": -1,
+    "distinct_states": null,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 150
+  },
+  {
+    "spec": "BufferC2",
+    "L1": 1,
+    "L3": 1,
+    "distinct_states": 1,
+    "deadlock": true,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 11
+  },
+  {
+    "spec": "BufferC3",
+    "L1": 1,
+    "L3": 4,
+    "distinct_states": 4,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 0
+  },
+  {
+    "spec": "BufferC4",
+    "L1": 1,
+    "L3": 4,
+    "distinct_states": 4,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 0
+  },
+  {
+    "spec": "CounterC1",
+    "L1": 0,
+    "L3": -1,
+    "distinct_states": null,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 150
+  },
+  {
+    "spec": "CounterC2",
+    "L1": 1,
+    "L3": 1,
+    "distinct_states": 1,
+    "deadlock": true,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 11
+  },
+  {
+    "spec": "CounterC3",
+    "L1": 1,
+    "L3": 5,
+    "distinct_states": 11,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 0
+  },
+  {
+    "spec": "CounterC4",
+    "L1": 1,
+    "L3": 5,
+    "distinct_states": 11,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 0
+  },
+  {
+    "spec": "MajorityVoteC1",
+    "L1": 0,
+    "L3": -1,
+    "distinct_states": null,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 150
+  },
+  {
+    "spec": "MajorityVoteC2",
+    "L1": 1,
+    "L3": 1,
+    "distinct_states": 1,
+    "deadlock": true,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 11
+  },
+  {
+    "spec": "MajorityVoteC3",
+    "L1": 1,
+    "L3": 5,
+    "distinct_states": 27,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 0
+  },
+  {
+    "spec": "MajorityVoteC4",
+    "L1": 1,
+    "L3": 5,
+    "distinct_states": 27,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 0
+  },
+  {
+    "spec": "MutexC1",
+    "L1": 0,
+    "L3": -1,
+    "distinct_states": null,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 150
+  },
+  {
+    "spec": "MutexC2",
+    "L1": 1,
+    "L3": 1,
+    "distinct_states": 1,
+    "deadlock": true,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 11
+  },
+  {
+    "spec": "MutexC3",
+    "L1": 1,
+    "L3": 4,
+    "distinct_states": 3,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 0
+  },
+  {
+    "spec": "MutexC4",
+    "L1": 1,
+    "L3": 4,
+    "distinct_states": 3,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 0
+  },
+  {
+    "spec": "TwoPhaseCommitC1",
+    "L1": 0,
+    "L3": -1,
+    "distinct_states": null,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 150
+  },
+  {
+    "spec": "TwoPhaseCommitC2",
+    "L1": 1,
+    "L3": 1,
+    "distinct_states": 1,
+    "deadlock": true,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 11
+  },
+  {
+    "spec": "TwoPhaseCommitC3",
+    "L1": 1,
+    "L3": 5,
+    "distinct_states": 11,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 0
+  },
+  {
+    "spec": "TwoPhaseCommitC4",
+    "L1": 1,
+    "L3": 5,
+    "distinct_states": 11,
+    "deadlock": false,
+    "violation": false,
+    "timeout": false,
+    "exit_code": 0
+  }
+]

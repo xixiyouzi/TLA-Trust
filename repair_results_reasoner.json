@@ -1,0 +1,416 @@
+{
+  "fpsr": 0.25,
+  "ari": 1.6363636363636365,
+  "rsr": 0.6111111111111112,
+  "tsr": 0.7083333333333334,
+  "results": [
+    {
+      "task": "Counter",
+      "candidate": "C1",
+      "class": "Syntax Error",
+      "initial": {
+        "L1": 0,
+        "L3": -1,
+        "L4": -1
+      },
+      "repaired": true,
+      "rounds": 1,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      }
+    },
+    {
+      "task": "Counter",
+      "candidate": "C2",
+      "class": "Deadlock",
+      "initial": {
+        "L1": 1,
+        "L3": 1,
+        "L4": -1
+      },
+      "repaired": true,
+      "rounds": 3,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      }
+    },
+    {
+      "task": "Counter",
+      "candidate": "C3",
+      "class": "Weak Invariant",
+      "initial": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 1
+      },
+      "repaired": true,
+      "rounds": 1,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      }
+    },
+    {
+      "task": "Counter",
+      "candidate": "C4",
+      "class": "Golden",
+      "initial": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      },
+      "repaired": true,
+      "rounds": 0,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      }
+    },
+    {
+      "task": "Mutex",
+      "candidate": "C1",
+      "class": "Syntax Error",
+      "initial": {
+        "L1": 0,
+        "L3": -1,
+        "L4": -1
+      },
+      "repaired": false,
+      "rounds": 5,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": -1
+      }
+    },
+    {
+      "task": "Mutex",
+      "candidate": "C2",
+      "class": "Deadlock",
+      "initial": {
+        "L1": 1,
+        "L3": 1,
+        "L4": -1
+      },
+      "repaired": false,
+      "rounds": 5,
+      "final": {
+        "L1": 1,
+        "L3": 4,
+        "L4": -1
+      }
+    },
+    {
+      "task": "Mutex",
+      "candidate": "C3",
+      "class": "Weak Invariant",
+      "initial": {
+        "L1": 1,
+        "L3": 4,
+        "L4": 1
+      },
+      "repaired": false,
+      "rounds": 5,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": -1
+      }
+    },
+    {
+      "task": "Mutex",
+      "candidate": "C4",
+      "class": "Golden",
+      "initial": {
+        "L1": 1,
+        "L3": 4,
+        "L4": 5
+      },
+      "repaired": true,
+      "rounds": 0,
+      "final": {
+        "L1": 1,
+        "L3": 4,
+        "L4": 5
+      }
+    },
+    {
+      "task": "Buffer",
+      "candidate": "C1",
+      "class": "Syntax Error",
+      "initial": {
+        "L1": 0,
+        "L3": -1,
+        "L4": -1
+      },
+      "repaired": true,
+      "rounds": 1,
+      "final": {
+        "L1": 1,
+        "L3": 4,
+        "L4": 5
+      }
+    },
+    {
+      "task": "Buffer",
+      "candidate": "C2",
+      "class": "Deadlock",
+      "initial": {
+        "L1": 1,
+        "L3": 1,
+        "L4": -1
+      },
+      "repaired": true,
+      "rounds": 1,
+      "final": {
+        "L1": 1,
+        "L3": 4,
+        "L4": 5
+      }
+    },
+    {
+      "task": "Buffer",
+      "candidate": "C3",
+      "class": "Weak Invariant",
+      "initial": {
+        "L1": 1,
+        "L3": 4,
+        "L4": 1
+      },
+      "repaired": true,
+      "rounds": 1,
+      "final": {
+        "L1": 1,
+        "L3": 4,
+        "L4": 5
+      }
+    },
+    {
+      "task": "Buffer",
+      "candidate": "C4",
+      "class": "Golden",
+      "initial": {
+        "L1": 1,
+        "L3": 4,
+        "L4": 5
+      },
+      "repaired": true,
+      "rounds": 0,
+      "final": {
+        "L1": 1,
+        "L3": 4,
+        "L4": 5
+      }
+    },
+    {
+      "task": "TwoPhaseCommit",
+      "candidate": "C1",
+      "class": "Syntax Error",
+      "initial": {
+        "L1": 0,
+        "L3": -1,
+        "L4": -1
+      },
+      "repaired": true,
+      "rounds": 1,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      }
+    },
+    {
+      "task": "TwoPhaseCommit",
+      "candidate": "C2",
+      "class": "Deadlock",
+      "initial": {
+        "L1": 1,
+        "L3": 1,
+        "L4": -1
+      },
+      "repaired": true,
+      "rounds": 1,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      }
+    },
+    {
+      "task": "TwoPhaseCommit",
+      "candidate": "C3",
+      "class": "Weak Invariant",
+      "initial": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 1
+      },
+      "repaired": true,
+      "rounds": 1,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      }
+    },
+    {
+      "task": "TwoPhaseCommit",
+      "candidate": "C4",
+      "class": "Golden",
+      "initial": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      },
+      "repaired": true,
+      "rounds": 0,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      }
+    },
+    {
+      "task": "MajorityVote",
+      "candidate": "C1",
+      "class": "Syntax Error",
+      "initial": {
+        "L1": 0,
+        "L3": -1,
+        "L4": -1
+      },
+      "repaired": false,
+      "rounds": 5,
+      "final": {
+        "L1": 0,
+        "L3": -1,
+        "L4": -1
+      }
+    },
+    {
+      "task": "MajorityVote",
+      "candidate": "C2",
+      "class": "Deadlock",
+      "initial": {
+        "L1": 1,
+        "L3": 1,
+        "L4": -1
+      },
+      "repaired": true,
+      "rounds": 2,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      }
+    },
+    {
+      "task": "MajorityVote",
+      "candidate": "C3",
+      "class": "Weak Invariant",
+      "initial": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 1
+      },
+      "repaired": false,
+      "rounds": 5,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 1
+      }
+    },
+    {
+      "task": "MajorityVote",
+      "candidate": "C4",
+      "class": "Golden",
+      "initial": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      },
+      "repaired": true,
+      "rounds": 0,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      }
+    },
+    {
+      "task": "AlternatingBit",
+      "candidate": "C1",
+      "class": "Syntax Error",
+      "initial": {
+        "L1": 0,
+        "L3": -1,
+        "L4": -1
+      },
+      "repaired": true,
+      "rounds": 5,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      }
+    },
+    {
+      "task": "AlternatingBit",
+      "candidate": "C2",
+      "class": "Deadlock",
+      "initial": {
+        "L1": 1,
+        "L3": 1,
+        "L4": -1
+      },
+      "repaired": false,
+      "rounds": 5,
+      "final": {
+        "L1": 1,
+        "L3": 1,
+        "L4": -1
+      }
+    },
+    {
+      "task": "AlternatingBit",
+      "candidate": "C3",
+      "class": "Weak Invariant",
+      "initial": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 1
+      },
+      "repaired": false,
+      "rounds": 5,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 1
+      }
+    },
+    {
+      "task": "AlternatingBit",
+      "candidate": "C4",
+      "class": "Golden",
+      "initial": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      },
+      "repaired": true,
+      "rounds": 0,
+      "final": {
+        "L1": 1,
+        "L3": 5,
+        "L4": 5
+      }
+    }
+  ]
+}

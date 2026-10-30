@@ -1,0 +1,50 @@
+[
+  {
+    "spec": "CounterS",
+    "L1": 1,
+    "L3": 5,
+    "L4": 5,
+    "states": 11,
+    "semantic_mutant_killed": true
+  },
+  {
+    "spec": "MutexS",
+    "L1": 1,
+    "L3": 4,
+    "L4": 5,
+    "states": 3,
+    "semantic_mutant_killed": true
+  },
+  {
+    "spec": "BufferS",
+    "L1": 1,
+    "L3": 4,
+    "L4": 5,
+    "states": 4,
+    "semantic_mutant_killed": true
+  },
+  {
+    "spec": "TwoPhaseCommitS",
+    "L1": 1,
+    "L3": 5,
+    "L4": 5,
+    "states": 11,
+    "semantic_mutant_killed": true
+  },
+  {
+    "spec": "MajorityVoteS",
+    "L1": 1,
+    "L3": 5,
+    "L4": 5,
+    "states": 35,
+    "semantic_mutant_killed": true
+  },
+  {
+    "spec": "AlternatingBitS",
+    "L1": 1,
+    "L3": 5,
+    "L4": 5,
+    "states": 14,
+    "semantic_mutant_killed": true
+  }
+]
