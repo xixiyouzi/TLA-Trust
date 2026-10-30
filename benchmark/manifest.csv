@@ -1,0 +1,25 @@
+task,candidate,class,expected_L1,expected_L3,expected_L4
+Counter,C1,Syntax Error,0,-1,-1
+Counter,C2,Deadlock,1,1,-1
+Counter,C3,Weak Invariant,1,5,1
+Counter,C4,Golden,1,5,5
+Mutex,C1,Syntax Error,0,-1,-1
+Mutex,C2,Deadlock,1,1,-1
+Mutex,C3,Weak Invariant,1,4,1
+Mutex,C4,Golden,1,4,5
+Buffer,C1,Syntax Error,0,-1,-1
+Buffer,C2,Deadlock,1,1,-1
+Buffer,C3,Weak Invariant,1,4,1
+Buffer,C4,Golden,1,4,5
+TwoPhaseCommit,C1,Syntax Error,0,-1,-1
+TwoPhaseCommit,C2,Deadlock,1,1,-1
+TwoPhaseCommit,C3,Weak Invariant,1,5,1
+TwoPhaseCommit,C4,Golden,1,5,5
+MajorityVote,C1,Syntax Error,0,-1,-1
+MajorityVote,C2,Deadlock,1,1,-1
+MajorityVote,C3,Weak Invariant,1,5,1
+MajorityVote,C4,Golden,1,5,5
+AlternatingBit,C1,Syntax Error,0,-1,-1
+AlternatingBit,C2,Deadlock,1,1,-1
+AlternatingBit,C3,Weak Invariant,1,5,1
+AlternatingBit,C4,Golden,1,5,5
