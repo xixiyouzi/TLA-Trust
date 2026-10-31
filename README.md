@@ -2,8 +2,7 @@
 
 Reference implementation for the manuscript
 **"Towards Trustworthy TLA+ Specifications: Vacuity-Aware Quality Metrics and an
-Open Reference Implementation"** (submitted to the International Journal on
-Software Tools for Technology Transfer).
+Open Reference Implementation"** (submitted to Science of Computer Programming).
 
 - Zenodo (archived release): <https://doi.org/10.5281/zenodo.23614758>
 
